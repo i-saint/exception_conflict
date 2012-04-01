@@ -1,0 +1,1 @@
+exception_conflict.exe server name=‚Ê‚é‚Û autostart=2 port=10040 max_connection=8 allow_pause=false enable_console=true enable_log=true logfile=server_example.log autoreply=autoreply_example.txt level=heavy map=horde deathmatch_time=3 catapult_boost=1.0 fraction_boost=1.0 enemy_boost=1.0

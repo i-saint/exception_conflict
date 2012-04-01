@@ -1,0 +1,19 @@
+# サーバーモードで起動したときの、ゲーム開始前に接続してきたプレイヤーへの自動返答メッセージを設定します。
+# '#'で始まる行と空行は無視されます。
+# {}で囲まれた一部の文字はゲーム中のパラメータに置換されます。
+# (例："現在の設定は {map}-{level} です" → "現在の設定は horde-heavy です"等)
+# 置換される文字一覧：
+# name - 名前
+# max_connection - 最大プレイヤー数
+# autostart - 自動開始人数
+# level - ゲームレベル(light,normal,heavy,excess,future)
+# map - マップ(horde,deathmatch,teamfortress)
+# horde_wave - hordeの開始wave
+# deathmatch_time - deathmatchの制限時間
+# teamfortress_life - teamfortressのコアlife倍率
+# catapult_boost - extra設定のcatapult boost
+# fraction_boost - extra設定のfraction boost
+# enemy_boost - extra設定のenemy boost
+
+現在の設定は {map}-{level} です。
+{autostart} 人集まったとき自動的に開始します。
